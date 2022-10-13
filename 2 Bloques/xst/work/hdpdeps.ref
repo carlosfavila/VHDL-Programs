@@ -1,0 +1,43 @@
+V3 30
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/costal.vhd 2022/03/27.21:49:09 P.20131013
+PH work/costal 1648445354 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/costal.vhd \
+      PB ieee/std_logic_1164 1381692176 CD c_inv CD c_and CD c_or CD c_xor CD c_nand
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_and.vhd 2022/03/27.21:32:45 P.20131013
+EN work/c_and 1648445357 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_and.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/c_and/Behavioral 1648445358 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_and.vhd EN work/c_and 1648445357
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_inv.vhd 2022/03/27.21:30:29 P.20131013
+EN work/c_inv 1648445355 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_inv.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/c_inv/Behavioral 1648445356 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_inv.vhd EN work/c_inv 1648445355
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_nand.vhd 2022/03/27.23:25:36 P.20131013
+EN work/c_nand 1648445363 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_nand.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/c_nand/Behavioral 1648445364 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_nand.vhd \
+      EN work/c_nand 1648445363
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_or.vhd 2022/03/27.21:36:10 P.20131013
+EN work/c_or 1648445361 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_or.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/c_or/Behavioral 1648445362 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_or.vhd EN work/c_or 1648445361
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_xor.vhd 2022/03/27.21:38:12 P.20131013
+EN work/c_xor 1648445359 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_xor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/c_xor/Behavioral 1648445360 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_xor.vhd EN work/c_xor 1648445359
+FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/principal.vhd 2022/03/27.23:29:05 P.20131013
+EN work/principal 1648445365 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/principal.vhd \
+      PB ieee/std_logic_1164 1381692176 PH work/costal 1648445354
+AR work/principal/Behavioral 1648445366 \
+      FL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/principal.vhd \
+      EN work/principal 1648445365 CP c_inv CP c_and CP c_xor CP c_or CP c_nand

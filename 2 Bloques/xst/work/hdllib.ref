@@ -1,0 +1,13 @@
+PH costal NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/costal.vhd sub00/vhpl10 1648445354
+EN c_and NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_and.vhd sub00/vhpl02 1648445357
+AR principal behavioral C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/principal.vhd sub00/vhpl12 1648445366
+EN c_xor NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_xor.vhd sub00/vhpl06 1648445359
+EN c_inv NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_inv.vhd sub00/vhpl00 1648445355
+EN principal NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/principal.vhd sub00/vhpl11 1648445365
+AR c_inv behavioral C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_inv.vhd sub00/vhpl01 1648445356
+AR c_nand behavioral C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_nand.vhd sub00/vhpl09 1648445364
+AR c_xor behavioral C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_xor.vhd sub00/vhpl07 1648445360
+AR c_and behavioral C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_and.vhd sub00/vhpl03 1648445358
+AR c_or behavioral C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_or.vhd sub00/vhpl05 1648445362
+EN c_nand NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_nand.vhd sub00/vhpl08 1648445363
+EN c_or NULL C:/Users/carlo/Desktop/PracticasCiruitos/Bloques/c_or.vhd sub00/vhpl04 1648445361
