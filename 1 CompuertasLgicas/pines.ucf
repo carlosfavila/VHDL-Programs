@@ -1,0 +1,12 @@
+net a loc= k17;
+net b loc= k18;
+net c loc= h18;
+net d loc= g18;
+
+net f1 loc= j14;
+net f2 loc= j15;
+net f3 loc= k15;
+net f4 loc= k14;
+net f5 loc= e17;
+net f6 loc= p15;
+net f7 loc= f4;

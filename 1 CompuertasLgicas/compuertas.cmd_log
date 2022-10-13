@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/VIP/Desktop/PracticasCircuitosLogicos/CompuertasLgicas/compuertas.xst" -ofn "C:/Users/VIP/Desktop/PracticasCircuitosLogicos/CompuertasLgicas/compuertas.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 compuertas.ngc compuertas.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 compuertas.ngc compuertas.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o compuertas_map.ncd compuertas.ngd compuertas.pcf 
+par -w -intstyle ise -ol high -t 1 compuertas_map.ncd compuertas.ncd compuertas.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml compuertas.twx compuertas.ncd -o compuertas.twr compuertas.pcf -ucf pines.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 compuertas.ngc compuertas.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o compuertas_map.ncd compuertas.ngd compuertas.pcf 
+par -w -intstyle ise -ol high -t 1 compuertas_map.ncd compuertas.ncd compuertas.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml compuertas.twx compuertas.ncd -o compuertas.twr compuertas.pcf -ucf pines.ucf 
+pin2ucf -o compuertas_locked.ucf compuertas.ncd 
+bitgen -intstyle ise -f compuertas.ut compuertas.ncd 
+xst -intstyle ise -ifn "C:/Users/carlo/Desktop/PracticasCircuitosLogicos/CompuertasLgicas/compuertas.xst" -ofn "C:/Users/carlo/Desktop/PracticasCircuitosLogicos/CompuertasLgicas/compuertas.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 compuertas.ngc compuertas.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o compuertas_map.ncd compuertas.ngd compuertas.pcf 
+par -w -intstyle ise -ol high -t 1 compuertas_map.ncd compuertas.ncd compuertas.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml compuertas.twx compuertas.ncd -o compuertas.twr compuertas.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f compuertas.ut compuertas.ncd 
+xst -intstyle ise -ifn "C:/Users/carlo/Desktop/PracticasCircuitosLogicos/CompuertasLgicas/compuertas.xst" -ofn "C:/Users/carlo/Desktop/PracticasCircuitosLogicos/CompuertasLgicas/compuertas.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 compuertas.ngc compuertas.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o compuertas_map.ncd compuertas.ngd compuertas.pcf 
+par -w -intstyle ise -ol high -t 1 compuertas_map.ncd compuertas.ncd compuertas.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml compuertas.twx compuertas.ncd -o compuertas.twr compuertas.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f compuertas.ut compuertas.ncd 
+pin2ucf -o compuertas_locked.ucf compuertas.ncd 

@@ -1,0 +1,21 @@
+# compuertas.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Mon Mar 28 05:43:35 2022
+#The following constraints were newly added
+NET "a" LOC = K17;
+NET "b" LOC = K18;
+NET "c" LOC = H18;
+NET "d" LOC = G18;
+NET "f1" LOC = J14;
+NET "f2" LOC = J15;
+NET "f3" LOC = K15;
+NET "f4" LOC = K14;
+NET "f5" LOC = E17;
+NET "f6" LOC = P15;
+NET "f7" LOC = F4;
